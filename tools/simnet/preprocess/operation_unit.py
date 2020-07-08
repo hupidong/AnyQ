@@ -64,7 +64,7 @@ class BaseOperation(object):
         utils.print_progress(self.task_name, curr_prec)
         self.prev_progressing_val = curr_prec
         if curr_prec == 100:
-            print ''
+            print ('')
 
 
 class OpGenerateDict(BaseOperation):
